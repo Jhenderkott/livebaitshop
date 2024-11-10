@@ -1,0 +1,34 @@
+/* Body */
+body {
+    background-color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Header */
+
+header {
+    font-size: 60px;
+    color: ghostwhite;
+    padding: 30px;
+    background-color: blue;
+    text-align: right;
+}
+
+.fish {width: 150px;
+}
+
+/* Footer */
+
+footer {
+
+    padding: 10px;
+    border-top: 5px;
+    text-align: center;
+    background-color: blue;
+
+
+}
+
+/* Photo Gallery */
+
+/* Fishing Tournament signup */

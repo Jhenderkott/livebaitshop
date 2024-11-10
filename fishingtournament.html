@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header><img class="fish" src="hand-drawn-trout-fishing-png-5696190.svg" alt="fish">Howard's Lakeside General Store
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="photogallery.html">Photo Gallery</a></li>
+            <li><a href="groceries.html">Groceries</a></li>
+            <li><a href="fishing.html">Fishing</a></li>
+            <li><a href="fishingtournament.html">Fishing Tournament</a></li>
+        </ul>
+    </nav>
+
+        <h2>Contact Us</h2>
+        <div class="container">
+            <form action="thankyou.html" method="get">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="fname">
+                        Name:
+                        <input autofocus type="text" name="fname" id="fname" required placeholder="First Name">
+                    </label>
+                    <label for="lname">
+                        Last Name:
+                        <input type="text" name="lname" id="lname" required placeholder="Last Name">
+                    </label>
+                    <label for="mail">Email
+                        <input name="Email" id="mail" type="email" placeholder="you@domain.com" required></label>
+                    <label for="phone">Phone Number
+                        <input name="Phone" id="phone" type="tel" placeholder="(000) 000-0000"></label>
+                </fieldset>
+
+                <fieldset>
+                    <Legend>Fishing Experience</Legend>
+                    <input name="beginner" id="beginner" value="beginner" type="checkbox">
+                    <label for="beginner">Beginner</label>
+                    <input name="intermediate" id="intermediate" value="intermediate" type="checkbox">
+                    <label for="intermediate">Intermediate</label>
+                    <input name="Experienced" id="Experienced" value="Experienced" type="checkbox">
+                    <label for="Experienced">Experienced</label>
+                    <input name="Expert" id="Expert" value="Expert" type="checkbox">
+                    <label for="Expert">Expert</label>
+                </fieldset>
+
+                <fieldset>
+                    <Legend>Age Range</Legend>
+                </fieldset>
+
+                <input class="submit" type="submit" value="Submit">
+                </form>
+                </div>
+</body>
+
+</html>
