@@ -102,6 +102,10 @@ div.desc {
     flex-wrap: wrap;
 }
 
+iframe{
+    border-width: 0px;
+}
+
 div {
     padding: 10px 10px 5px 10px;
     line-height: 1.5
