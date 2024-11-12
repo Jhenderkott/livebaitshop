@@ -2,6 +2,7 @@
 body {
     background-color: aquamarine;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
 }
 
 /* Header */
@@ -9,15 +10,33 @@ body {
 header {
     font-size: 60px;
     color: ghostwhite;
-    padding: 30px;
+    padding: 1%;
     background-color: blue;
     text-align: right;
 }
 
 .fish {
-    width: 150px;
+    width: 75px;
 }
 
+/* Home page  */
+
+.smaller {
+    width: 60%;
+    padding: 0%;
+    margin: 0%
+}
+
+.sidebar {
+    float: right;
+    width: 35%;
+    padding: 0%;
+    margin: 0%;
+    border: 5px;
+    border-style: groove;
+    background-color: rgb(189, 218, 243);
+    font-size: 20px;
+}
 
 /* Navigation */
 ul {
@@ -66,6 +85,15 @@ div.desc {
 
 /* Fishing Tournament signup */
 
+.container {
+    margin: auto;
+    width: 70%;
+    background-color: rgb(215, 240, 250);
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
 /* Fishing */
 
 .flexwrapper {
@@ -104,6 +132,9 @@ img {
     height: 500px;
 }
 
+
+
+
 /* Footer */
 
 footer {
@@ -118,3 +149,5 @@ footer {
 .footerimage {
     width: 50px
 }
+
+/* Groceries */
